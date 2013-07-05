@@ -14,3 +14,7 @@ To update submodules:
 	git submodule update
 
 
+Adding submodules for use with pathogen
+
+	cd ~/.vim
+	git submodule add <vim module repo URL> bundle/<local module name>
