@@ -1,3 +1,5 @@
+runtime bundle/pathogen/autoload/pathogen.vim
+
 " Change leader key to a comma - b/c everyone does
 let mapleader=","
 
@@ -32,8 +34,8 @@ let NERDTreeShowBookmarks=1
 
 " For pathogen
 filetype off
-call pathogen#infect()
-call pathogen#helptags()
+execute pathogen#infect()
+execute pathogen#helptags()
 syntax on
 filetype on
 filetype plugin indent on
