@@ -18,3 +18,9 @@ Adding submodules for use with pathogen
 
 	cd ~/.vim
 	git submodule add <vim module repo URL> bundle/<local module name>
+
+
+Pull new updates for all submodules
+
+    git submodule foreach git pull origin master
+    git commit <submodule dir> -n "Update <submodule>"
