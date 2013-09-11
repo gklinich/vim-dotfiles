@@ -3,6 +3,10 @@ runtime bundle/pathogen/autoload/pathogen.vim
 " Change leader key to a comma - b/c everyone does
 let mapleader=","
 
+" Disable auto saving for vim-session
+let g:session_autosave = 'no'
+
+set t_Co=256
 set hidden
 set nowrap
 set tabstop=4
@@ -27,7 +31,7 @@ set viminfo='100,f1
 set nobackup
 set noswapfile
 
-
+colorscheme desert256
 
 " NERDTree settings
 let NERDTreeShowBookmarks=1
