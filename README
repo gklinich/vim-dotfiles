@@ -24,3 +24,7 @@ Pull new updates for all submodules
 
     git submodule foreach git pull origin master
     git commit <submodule dir> -n "Update <submodule>"
+
+Deleting a submodule 
+
+    http://davidwalsh.name/git-remove-submodule
