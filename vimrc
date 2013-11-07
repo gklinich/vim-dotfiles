@@ -51,7 +51,7 @@ source $HOME/.vim/plugins/cscope_maps.vim
 
 autocmd!
 autocmd FileType python set nospell autoindent smartindent expandtab tabstop=4 shiftwidth=4 smarttab tw=0 list listchars=tab:>-,trail:.,extends:#,nbsp:.
-autocmd FileType python compiler pylint
+" autocmd FileType python compiler pylint
 autocmd BufRead,BufNewFile *.py syntax on
 autocmd BufRead,BufNewFile *.py set ai
 autocmd BufRead *.py set cinwords=if,elif,else,for,while,try,except,finally,def,class
