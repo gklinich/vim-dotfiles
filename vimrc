@@ -65,7 +65,10 @@ augroup gnupg
   autocmd BufWritePost,FileWritePost *.gpg '[,']!gpg -e -o- -rtck@arbor.net > <afile>
 augroup END
 
-autocmd VimEnter * NERDTree
+" autocmd VimEnter * NERDTree
+
+" gundo setting
+let g:gundo_preview_bottom = 1
 
 " ,# perl/python # comments
 map ,# :s/^/#/<CR>
