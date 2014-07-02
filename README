@@ -28,3 +28,7 @@ Pull new updates for all submodules
 Deleting a submodule 
 
     http://davidwalsh.name/git-remove-submodule
+
+Push changes to github
+
+	git push origin master
