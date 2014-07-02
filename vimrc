@@ -31,7 +31,7 @@ set viminfo='100,f1
 set nobackup
 set noswapfile
 
-colorscheme desert256
+colorscheme desert-warm-256
 
 " NERDTree settings
 let NERDTreeShowBookmarks=1
@@ -91,6 +91,13 @@ let g:pymode_run_key = 'R'
 "set foldlevel=1         "this is just what i use
 "
 "
+
+" " remaps for saving
+" nmap <Esc><Esc> :update<CR>
+" vmap <Esc><Esc> :update<CR>gv
+" imap <Esc><Esc> <c-o>:update<CR>
+
+
 " bind Ctrl+<movement> keys to move around windows
 map <C-j> <C-w>j
 map <C-k> <C-w>k
