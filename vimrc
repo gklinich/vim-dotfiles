@@ -1,4 +1,30 @@
-runtime bundle/pathogen/autoload/pathogen.vim
+" Setup for vundle.  This must remain at the top.
+set nocompatible
+filetype off
+set runtimepath+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+Bundle 'wincent/Command-T'
+Bundle 'kien/ctrlp.vim'
+Bundle 'tomtom/tcomment_vim'
+Bundle 'tpope/vim-fugitive'
+Bundle 'sjl/gundo'
+Bundle 'jisaacks/GitGutter'
+Bundle 'xolox/vim-session'
+Bundle 'xolox/vim-misc'
+Bundle 'tpope/vim-unimpaired'
+Bundle 'fholgado/minibufexpl.vim'
+Bundle 'kevinw/pyflakes-vim'
+Bundle 'bling/vim-airline'
+Bundle 'scrooloose/syntastic'
+
+
+
+
+filetype on
+
+" runtime bundle/pathogen/autoload/pathogen.vim
 
 " Change leader key to a comma - b/c everyone does
 let mapleader=","
@@ -38,8 +64,8 @@ let NERDTreeShowBookmarks=1
 
 " For pathogen
 filetype off
-execute pathogen#infect()
-execute pathogen#helptags()
+" execute pathogen#infect()
+" execute pathogen#helptags()
 syntax on
 filetype on
 filetype plugin indent on
